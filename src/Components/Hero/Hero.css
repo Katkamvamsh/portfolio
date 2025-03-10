@@ -1,0 +1,59 @@
+.heading{
+    font: 50px Roboto;
+    margin-top: 100px;
+}
+.hero-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-main-container img{
+        height: 29vh;
+    
+}
+.hero-main-container h1{
+    text-align: center;
+    width: 40vw;
+}
+.name{
+    background: linear-gradient(to right , rgb(255, 0, 255), rgb(207, 146, 33));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+    
+}
+.hero-main-container p{
+    font: 25px Roboto italic;
+    text-align: center;
+   }
+
+  .btn-container {
+  display: flex;
+    gap: 30px;
+        }
+
+   .connect-button{
+background: linear-gradient(to left , purple, orange);
+border-radius: 50px;
+padding: 13px 20px;
+font-size: 18px;
+cursor: pointer;
+border: 2px solid rgb(0, 0, 0);
+   }
+
+   .resume-button{
+    font-size: 18px;
+    padding: 13px 20px;
+   border: 2px solid white;
+   background-color: transparent;
+   border-radius: 50px;
+   cursor: pointer;
+  
+   }
+   .connect-button:hover{
+     border:2px solid rgb(0, 17, 255) ;
+   }
+   .resume-button:hover{
+       border:2px solid rgb(0, 17, 255) ;
+   }

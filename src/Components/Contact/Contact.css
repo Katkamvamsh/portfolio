@@ -1,0 +1,89 @@
+.keep-side-by-side{
+    margin: 20px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+   /* background-color: red; */
+   padding:10px ;
+}
+.contact{
+    margin-top: 70px;
+    text-align: center;
+    font: 50px Roboto;
+}
+.image_container{
+  display: flex;
+  gap: 20px;
+     align-items: center;
+   line-height: 0.2;
+}
+.image_container img{
+    height: 3vh;
+    margin-right:25px ;
+}
+.footer-para{
+    width: 80%;
+   margin: 0px 0px 30px 0px;
+}
+.input{
+    padding: 10px;
+    background: linear-gradient(to left, rgb(247, 1, 247),orange);
+    
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    width: 80%;
+}
+.input {
+    padding: 10px;
+    background: rgb(0, 0, 0); /* Keeps the input background separate */
+    margin: 5px 0px;
+    width: 80%;
+    border: 2px solid transparent; /* Transparent border */
+    border-image: linear-gradient(to left, rgb(247, 120, 1), rgb(255, 0, 242));
+    border-image-slice: 0.7; /* Ensures full coverage */
+    
+}
+
+.input-label-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 10px 30px;
+}
+.right-container{
+   /* background-color: red; */
+   width: 50%;
+}
+.left-container{
+   /* background-color: aliceblue; */
+    width: 50%;
+    padding: 0px 0px 0px 150px;
+}
+.textarea{
+    padding: 0px 20px 70px 0px;
+}
+
+    .letsTalk-heading {
+        font: 40px Roboto;
+        margin-top: 10px;
+        background: linear-gradient(to right, rgb(255, 0, 255), rgb(255, 187, 0));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block; /* Ensures the gradient applies properly */
+     }
+     
+
+     .form-button{
+        padding: 9px 25px;
+        border-radius: 10px;
+        font: 20px Roboto;
+        background: linear-gradient(to left,purple,blue);
+        border: 1px solid black;
+        margin:20px 0px 0px 30px;
+        cursor: pointer;
+    }
+    .email-link {
+        text-decoration: none;
+        color: inherit;
+        
+      }
+      
