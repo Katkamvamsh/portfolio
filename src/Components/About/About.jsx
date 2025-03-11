@@ -1,5 +1,5 @@
 import './About.css'
-import about_profile from '../../assets/about_profile.svg'
+import about_profile from '../../assets/vamshi.png'
 const About = () => {
   return (
     <section id='about'>

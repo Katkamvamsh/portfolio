@@ -1,5 +1,5 @@
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/vamshi.png'
 const Hero = () => {
   const scrollToSection = () => {
     const section = document.getElementById("contact"); // Get Contact Section by id

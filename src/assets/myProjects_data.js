@@ -55,7 +55,7 @@ const myProjects_data = [
         p_name:"mern_todoApplication",
         p_description:todo,
         p_img:todo_img,
-        p_link: "https://dummy-healthdashboard.com"
+        p_link: "https://todo-mern-git-main-katkamvamshs-projects.vercel.app/"
     },
     {
         p_no:7,
