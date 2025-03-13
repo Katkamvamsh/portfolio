@@ -9,7 +9,7 @@ const Hero = () => {
   };
   return (
     <div id='home' className='hero-main-container'>
-    <h1 className='heading'>Profile</h1>
+    <h1 id='heading-profile'>Profile</h1>
     <img src={profile_img} alt='vamshi' />
       <h1> <span className='name'>I`m VAMSHI KRISHNA , </span> Mern Stack Developer . </h1>
       <p>I am an Mern Stack developer actively looking for Mern Stack developer job .</p>

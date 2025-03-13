@@ -57,3 +57,27 @@ border: 2px solid rgb(0, 0, 0);
    .resume-button:hover{
        border:2px solid rgb(0, 17, 255) ;
    }
+
+   @media (max-width:500px){
+    .hero-main-container{
+        width: 500px;
+    }
+    .hero-main-container h1{
+        width: 350px;
+        font-size: 20px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .hero-main-container p{
+        width: 350px;
+        font-size: 20px;
+    }
+    .connect-button{
+        display: block;
+    }
+    #heading-profile{
+        font-size: 40px;margin-top: 40px;
+    }
+
+   }

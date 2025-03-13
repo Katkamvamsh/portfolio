@@ -84,4 +84,23 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    .footer{
+        width: 500px;
+    }
+    .footer-para{
+        width: 400px;
+        font-size: 17px;
+        margin-left:30px ;
+    }
+    .footer-main-container{
+        width: 500px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .footer-heading{
+        width: 300px;
+        margin-left:100px ;
+    }
 }
