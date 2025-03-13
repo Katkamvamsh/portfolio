@@ -1,5 +1,5 @@
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
+// import logo from '../../assets/logo.svg'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 
@@ -30,7 +30,7 @@ const Navbar = () => {
   };
   return (
     <div className='navbar-main-container'>
-     <img  onClick={homeScrollToSection} src={logo} alt='logo'/>
+     <h1 className='logo'  onClick={homeScrollToSection}>Katkam VamshiKrishna</h1> {/* src={logo} alt='logo'/> */}
      <img className='menu-icon' onClick={()=>menuOnClickTab(!isMenuOpen)} src={isMenuOpen ? menu_close : menu_open}  alt='logo'/>
   <ul className={`nav-middle-container ${isMenuOpen ? "show" : ""}`}>
     <li> <Link onClick={() => onClickTab("profile")} className={activeTab ==="profile"?"active":"inactive"} to="home" smooth={true} duration={1000}> Profile</Link></li>

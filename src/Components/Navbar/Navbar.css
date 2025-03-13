@@ -74,6 +74,8 @@ margin-left: -8px;
        .menu-icon{
         display: block;
         position: relative;
+        
+       
        }
        .menu-icon:hover{
         transform: scale(1.1);
@@ -95,5 +97,11 @@ margin-left: -8px;
     border-radius: 25px;
       transition: 0.5s;
       
+       }
+       .logo{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Roboto";
+        cursor: pointer;
        }
   }
