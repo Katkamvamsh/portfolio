@@ -62,7 +62,6 @@
       align-items: center;
     }
     .profile_image{
-        height: 50vh;
-        border-radius: 10px;
+        display: none;
     }
 }

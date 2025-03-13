@@ -16,7 +16,7 @@ const Hero = () => {
      <div className='btn-container'>
           <div onClick={scrollToSection} className='connect-button'>Connect with me</div>
           <a
-  href="https://drive.google.com/uc?export=download&id=1cmkkdEebBRb79Y1J2Q1KrR0Da-u99YGO"
+  href="https://drive.google.com/drive/folders/1IDvWSI7Xo6hHo4ar4U5IlOHqkoZ2pBvo?usp=sharing"
   className="resume-button"
   download="Vamshi_Krishna_Resume.pdf"
   target="_blank"
