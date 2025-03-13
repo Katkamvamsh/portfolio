@@ -35,7 +35,7 @@ const myProjects_data = [
         p_name:"Netflix_clone",
         p_description:netflix,
         p_img:netflix_img,
-        p_link: "https://netflix-clone-szu-git-main-katkamvamshs-projects.vercel.app/login/"
+        p_link: "https://netflix-clone-szu-git-main-katkamvamshs-projects.vercel.app"
     },
     {
         p_no:4,
