@@ -8,6 +8,13 @@ z-index: 1;
 margin-top: -7px;
 margin-left: -8px;
 }
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto";
+  cursor: pointer;
+  margin-right:10px ;
+ }
 .navbar-main-container li{
   transform: scale(0.99);
 }
@@ -21,12 +28,13 @@ margin-left: -8px;
 .nav-middle-container{
     list-style: none;
     color: white;
-    gap: 10px;
+    gap: 7px;
    display: flex;
      padding: 0px 0px 0px 10px;
    justify-content: space-around;
    font: 20px Roboto, sans-serif, italic;
    cursor: pointer;
+   margin-left: 17px;
    
   }
   .active{
