@@ -8,12 +8,13 @@ import gmail from '../../assets/gmail.svg'
 import github from '../../assets/github.svg' 
 
 const Footer = () => {
-  return ( <div id='contactsocialmedia'>
-    <div className="footer-main-container">
+  return (
+    <> <div className='main-container' id='contactsocialmedia'>
+    <div  className="lets-connect-container">
       <h1>Let`s connect </h1>
       <p className='footer-para'>I am  <span className='span'> Katkam Vamshi krishna</span>  a Mern Stack Web Developer you  can contact for make a Website for your business expands, that can make your clients easy access & they will know about your services and offers  </p>
       </div>
-     <div className='connect-container'>
+     <div className='stay-connect-container'>
      <h1 className='footer-heading'>Stay connect with me</h1>
       <div className='all-icons-container'>
       <div className="each-icon-container">
@@ -59,14 +60,14 @@ const Footer = () => {
   </a>
   <p>GitHub</p>
 </div>
-
-  
+</div>
       </div>
      </div>
     <div className="footer">
       &copy; 2025 All rights reserved by Katkam Vamshi krishna 
     </div>
-    </div>
+    
+    </>
   )
 }
 
