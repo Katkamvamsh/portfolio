@@ -136,10 +136,12 @@ gap:0px;
                  }
          .show{
           display: grid;
+          width: 100%;
           grid-template-columns: 1fr 1fr 2fr;
         font-size: 14px;
         top: 50px;
         gap: 20px;
+        border-color: rgb(143, 189, 189);
         margin: 0px 0px 10px 0px;
         flex-wrap: wrap;
         position: absolute;
