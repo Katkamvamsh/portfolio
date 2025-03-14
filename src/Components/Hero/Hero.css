@@ -1,12 +1,11 @@
-.heading{
-    font: 50px Roboto;
-    margin-top: 200px;
+#heading-profile{
+    margin-top: 100px;
 }
 .hero-main-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+  
 }
 .hero-main-container img{
         height: 29vh;
