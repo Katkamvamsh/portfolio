@@ -11,7 +11,7 @@ const Hero = () => {
     <div id='home' className='hero-main-container'>
     <h1 id='heading-profile'>Profile</h1>
     <img src={profile_img} alt='vamshi' />
-      <h1> <span className='name'>I`m VAMSHI KRISHNA , </span> Mern Stack Developer . </h1>
+      <h1 id='mern'> <span className='name'>I`m VAMSHI KRISHNA , </span> Mern Stack Developer . </h1>
       <p>I am an Mern Stack developer actively looking for Mern Stack developer job .</p>
      <div className='btn-container'>
           <div onClick={scrollToSection} className='connect-button'>Connect with me</div>

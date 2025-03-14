@@ -6,7 +6,7 @@
    padding:10px ;
 }
 .contact{
-    margin-top: 70px;
+    margin-top: 40px;
     text-align: center;
     font: 50px Roboto;
 }
@@ -63,7 +63,6 @@
 
     .letsTalk-heading {
         font: 40px Roboto;
-        margin-top: 10px;
         background: linear-gradient(to right, rgb(255, 0, 255), rgb(255, 187, 0));
         -webkit-background-clip: text;
         background-clip: text;
@@ -87,7 +86,7 @@
         
       }
       
-      @media (max-width:500px) {
+      @media (min-width:300px) and (max-width:480px) {
         .keep-side-by-side{
             display: flex;
             flex-direction: column;
@@ -107,3 +106,25 @@
             margin: 0px 0px 10px -80px;
         }
       }
+
+      @media (min-width: 481px) and (max-width: 767px) {
+        .keep-side-by-side{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        .para{
+            width: 380px;
+        }
+        .image_container{
+            width: 350px;
+        }
+        .input{
+            width: 300px;
+        }
+        .left-container{
+            margin: 0px 0px 10px -80px;
+        }
+    }
+    

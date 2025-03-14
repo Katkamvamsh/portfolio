@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .hero-main-container img{
         height: 29vh;
@@ -56,11 +57,13 @@ border: 2px solid rgb(0, 0, 0);
    }
    .resume-button:hover{
        border:2px solid rgb(0, 17, 255) ;
+       color: blue;
    }
 
-   @media (max-width:500px){
+   @media (min-width:300px) and(max-width:480px){
     .hero-main-container{
         width: 500px;
+        margin: auto;
     }
     .hero-main-container h1{
         width: 350px;
@@ -81,3 +84,35 @@ border: 2px solid rgb(0, 0, 0);
     }
 
    }
+
+   @media (min-width: 481px) and (max-width: 767px) {
+    #heading-profile{
+        margin: 50px 0px 20px 0px;
+        
+    }
+    .hero-main-container h1{
+        width: 480px;
+        font-size: 40px;
+    }
+   
+    .name{
+        font-size: 35px;
+        
+    }
+    .hero-main-container p{
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .resume-button{
+       
+        font-size: 16px;
+        text-decoration: none;
+        padding: 10px 22px;
+        margin: 20px 0px 0px 20px;
+    }
+    #mern{
+        font-size: 30px;
+        width: 400px;
+    }
+}

@@ -30,7 +30,7 @@ const Navbar = () => {
   };
   return (
     <div className='navbar-main-container'>
-     <h1 className='logo'  onClick={homeScrollToSection}>Katkam VamshiKrishna</h1> {/* src={logo} alt='logo'/> */}
+     <h1 className='logo-name'  onClick={homeScrollToSection}>Katkam VamshiKrishna</h1> {/* src={logo} alt='logo'/> */}
      <img className='menu-icon' onClick={()=>menuOnClickTab(!isMenuOpen)} src={isMenuOpen ? menu_close : menu_open}  alt='logo'/>
   <ul className={`nav-middle-container ${isMenuOpen ? "show" : ""}`}>
     <li> <Link onClick={() => onClickTab("profile")} className={activeTab ==="profile"?"active":"inactive"} to="home" smooth={true} duration={1000}> Profile</Link></li>

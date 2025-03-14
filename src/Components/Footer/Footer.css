@@ -71,7 +71,7 @@
     display: inline-block;
 }
 
-@media (max-width:800px){
+@media (min-width:300px) and (max-width:480px){
     .all-icons-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -79,21 +79,27 @@
 }
 
 
-@media (max-width:500px){
-    .all-icons-container{
+@media (min-width:481px) and (max-width:767px){
+    .all-icons-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* Centers items vertically */
+        margin: auto;
+        width: fit-content; /* Ensures the grid container is only as wide as its content */
     }
+    
+
+    
     .footer{
         width: 500px;
     }
     .footer-para{
-        width: 400px;
+        width: 480px;
         font-size: 17px;
         margin-left:30px ;
     }
     .footer-main-container{
-        width: 500px;
+        width: 480px;
        display: flex;
        flex-direction: column;
        justify-content: center;

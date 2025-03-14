@@ -39,10 +39,25 @@
     cursor: pointer;
 }
 
-@media (max-width:500px){
+@media (min-width: 481px) and (max-width: 767px) {
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .each{
+        width: 250px;
+    }
+    .image{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media  (min-width:300px) and (max-width:480px){
     .main-container{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .each{
         width: 350px;
@@ -52,3 +67,5 @@
         height: 250px;
     }
 }
+
+

@@ -54,7 +54,8 @@
 }
 
 
-@media (max-width:500px){
+
+@media (min-width:300px) and (max-width:480px){
     .aboutMe-main-container{
         display: flex;
         flex-direction: column;
@@ -64,4 +65,20 @@
     .profile_image{
         display: none;
     }
+    .horizontal-line {
+         width: 100%;
+       background: linear-gradient(to right, rgb(199, 3, 248), rgb(247, 210, 0));
+        margin: 20px auto;
+    }
+    
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .aboutMe-main-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+        padding: 20px;
+    }
+
 }
