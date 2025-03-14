@@ -113,7 +113,7 @@ gap:0px;
       background-color: rgb(10, 9, 9);
       display: flex;
       position: fixed;
-      justify-content: space-between;
+      justify-content: space-around;
       z-index: 1;
       flex-direction: row;
       position: relative;
@@ -132,6 +132,7 @@ gap:0px;
          .menu-icon{
           display: block;
           width: 25px;
+          margin-right:30px ;
                  }
          .show{
           display: grid;
