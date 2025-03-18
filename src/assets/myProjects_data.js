@@ -21,7 +21,7 @@ const myProjects_data = [
         p_name:"Youtube_clone",
         p_description:swiggy,
         p_img:youtube_img,
-         p_link: "https://dummy-swiggy.com"
+         p_link: "https://youtube-clone-git-master-katkamvamshs-projects.vercel.app/ "
     },
     {
         p_no:2,

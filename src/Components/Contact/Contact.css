@@ -98,6 +98,8 @@
         }
         .image_container{
             width: 400px;
+            font-size: 18px;
+            color: aqua;
         }
         .input{
             width: 350px;
